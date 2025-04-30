@@ -1,13 +1,17 @@
-<header class="header">
+<header class="header" >
     <div class="logo">
-        <img class="imagemlogo" src="https://media.discordapp.net/attachments/1349430339541401640/1364704174054441050/uninassau_n_1.png?ex=680aa34e&is=680951ce&hm=e68aed5c667a2bcec96b9da6f3ee5608ed99c122af42d5ccfd08ec2d682ca3f6&=&format=webp&quality=lossless" alt="">
+        <img class="imagemlogo" src="img\logo-uninassau.png" alt="">
     </div>
 
-    <nav class="nav">
+    <button class="menu-icon" (click)="toggleMenu()">
+        &#9776;
+      </button>
+    
+    <nav class="nav-links" [ngClass]="{ aberto: menuAberto }">
         <a href="">Início</a>
         <a href="">Sobre</a>
         <a href="">Serviços</a>
         <a href="">Depoimentos</a>
-        <a href="">Contato</a>
+        <a class="contato" href="">Contato</a>
     </nav>
 </header>

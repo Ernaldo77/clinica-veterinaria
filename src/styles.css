@@ -9,3 +9,8 @@
     padding: 0;
     width: 100%;
   }
+
+  :root{
+    --azul-escuro: rgba(0,51,102,255);
+    --amarelo: yellow;
+  }
