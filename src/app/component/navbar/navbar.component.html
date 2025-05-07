@@ -1,17 +1,17 @@
-<header class="header" >
+<header class="navbar">
     <div class="logo">
-        <img class="imagemlogo" src="img\logo-uninassau.png" alt="">
+      <a routerLink="/">
+        <img class="imagemlogo" src="img\logo-uninassau.png" alt="" />
+      </a>
     </div>
-
-    <button class="menu-icon" (click)="toggleMenu()">
-        &#9776;
-      </button>
-    
+   
+    <button class="menu-icon" (click)="toggleMenu()">&#9776;</button>
+   
     <nav class="nav-links" [ngClass]="{ aberto: menuAberto }">
-        <a href="">Início</a>
-        <a href="">Sobre</a>
-        <a href="">Serviços</a>
-        <a href="">Depoimentos</a>
-        <a class="contato" href="">Contato</a>
+      <a href="">Início</a>
+      <a [routerLink]="['/sobre']">Sobre</a>
+      <a [routerLink]="['/servicos']">Serviços</a>
+      <a href="">Depoimentos</a>
+      <a class="contato" href="">Contato</a>
     </nav>
-</header>
+  </header>
