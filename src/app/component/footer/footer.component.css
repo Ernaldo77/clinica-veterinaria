@@ -1,6 +1,8 @@
 .footer{
     display: flex;
     background-color: var(--azul-escuro) ;
+    z-index: 9999;
+    position: relative;
 
 }
 
