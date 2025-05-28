@@ -8,11 +8,24 @@
         </p>
     </nav>
     <nav class="navegacao">
-    <p>Navegação</p>
+    <p class="nave">Navegação</p>
      <a href=""><br>Início</a>
-      <a>Sobre</a>
-      <a>Serviços</a>
-      <a href="">Depoimentos</a>
-      <a class="contato" href="">Contato</a>
+      <a [routerLink]="['/sobre']">Sobre</a>
+      <a [routerLink]="['/servicos']">Serviços</a>
+      <a [routerLink]="['/depoimentos']">Depoimentos</a>
+      <a [routerLink]="['/equipe']">Equipe</a>
+    </nav>
+    <nav class="atendimento">
+        <p class="atend">Atendimento</p>
+        <p class="info">Informações</p>
+        <p>ouvidoriasereducacional.com </p>
+        <p class="telefone">Telefone</p>
+        <p>(83)2107-5959</p>
+        <p class="siga">Siga-nos</p>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-whatsapp"></i>
     </nav>
 </footer>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+

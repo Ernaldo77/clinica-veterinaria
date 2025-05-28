@@ -1,7 +1,7 @@
+
 .container {
     width: 100%;
     min-height: 90vh;
-    margin-top: 95px;
     background-color: rgba(243, 211, 50, 1);
     transition: background-color 1s ease-in-out;
     position: relative;
@@ -37,14 +37,14 @@ p {
 
 img {
     position: absolute;
-    top: 95px;
+    top: 94px;
     right: 0;
     height: 860px;
     width: 532px;
     z-index: 1;
     object-fit: cover;
     -webkit-mask-image: linear-gradient(to right, transparent, black 25%);
-    mask-image: linear-gradient(to right, transparent, black 25%);
+    mask-image: linear-gradient(to right, transparent, black 15%);
     -webkit-mask-size: 100% 100%;
     mask-size: 100% 100%;
     -webkit-mask-repeat: no-repeat;
@@ -52,6 +52,7 @@ img {
 }
 
 button{
+    cursor: pointer;
     position:relative;
     left: 17.5rem;
     top: 8rem;
