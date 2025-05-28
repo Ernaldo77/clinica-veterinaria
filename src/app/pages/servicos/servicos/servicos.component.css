@@ -1,11 +1,14 @@
 .servicos{
   display: flex;
   text-align: center;
-  background-color: #F2F2F2;
+  background-color: lightgray;
   width: 100%;
   height: 100%;
   padding-bottom: 5%;
+  background: linear-gradient(rgb(254, 254, 254), rgb(231, 231, 141)), rgb(230, 219, 9);
 }
+
+
 
 .titulo{
   width: 555px;
@@ -32,8 +35,9 @@
 .consultas{
     display: flex;
     justify-content: center;
-    gap: 10%;
+    gap: 7%;
     flex-wrap: wrap;
+    
 }
 
 .quadradoConsulta{

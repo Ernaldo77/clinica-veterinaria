@@ -1,9 +1,13 @@
+body{
+   background: linear-gradient(rgb(254, 254, 254), rgb(231, 231, 141)), rgb(230, 219, 9);
+   
+}
+
 .depoimentos {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 40px;
-    margin-bottom: 35px;
   }
   
   .texto {
@@ -13,13 +17,14 @@
     width: 100%;
     max-width: 900px;
     padding-left: 20px;
+  
   }
   
   
   .texto h1 {
     padding-left: 20%;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   
  .container-depoimentos {
@@ -28,8 +33,9 @@
     gap: 30px;
     max-width: 900px;
     margin-top: 30px;
-    margin-left: 20rem;
+    margin-left: 10rem;
     margin-right: auto;
+    margin-bottom: 5%;
 }
   .quadradoDepoimento {
     background-color: rgba(243, 211, 50, 1);

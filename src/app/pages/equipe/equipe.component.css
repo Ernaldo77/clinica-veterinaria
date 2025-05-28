@@ -1,5 +1,9 @@
+body{
+    background: linear-gradient(rgb(254, 254, 254), rgb(231, 231, 141)), rgb(230, 219, 9);
+}
+
 h2.conheca {
-    padding-top: 3%;
+    padding-top: 1%;
     text-align: center; 
     padding-left: 0;
     font-size: 3rem;
@@ -11,8 +15,9 @@ h2.conheca {
 .medico {
     display: flex;
     justify-content: space-between;
-    padding: 0 40px;
-    margin: 40px 0;
+    padding: 40px 40px;
+    margin: 0px 0;
+    
 }
 
 .lucas, .camila {
@@ -40,6 +45,7 @@ h2.conheca {
     text-align: center;
     font-size: 21px;
     line-height: 1.5;
+    
 }
 
 .medico .info h2, .medico .info2 h2 {
